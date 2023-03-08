@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+/*body and container*/
+.container{
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    position: relative;
+    left: 495px;
+    top: 102px;
+    
+}
+
+.annual{
+    width: 354px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #F7F9FF;
+    border-radius: 11px;
+    margin-left: 48px;
+}
+body{
+   background-color: #afc1fe;
+}
+/* image */
+.image{
+    width: 450px;
+    height: 220px;
+    border-radius: 20px 20px 0px 0px;
+}
+.music{
+    width: 48px;
+    height: 48px;
+}
+/* pharagraphs */
+
+h1{
+    width: 354px;
+    height: 37px;
+    text-align: center;
+    margin-left: 48px;
+    margin-top: 45px;
+}
+.main-p{
+    width: 354px;
+    height: 78px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #717FA6;
+    margin-left: 48px;
+}
+.p1{
+    width: 111px;
+    height: 21px;
+    font-weight: 900;
+    font-size: 16px;
+}
+.p2{
+    width: 92px;
+    height: 21px;
+    color: #717FA6;
+}
+.p3{
+    width: 52px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 24px;
+    color: #382AE1;
+}
+ol{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    right: 35px;
+}
+.li{
+    margin-top: -14px;
+}
+button{
+    width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    border: 0px;
+    background-color: #382AE1;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 48px;
+}
+button p{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 12px;
+}
+.last{
+    width: 96px;
+    height: 20px;
+    font-weight: 900;
+    font-size: 15px;
+    color: #717FA6;
+    margin-top: 32px;
+    margin-left: 178px;
+}
+/* hover */
+.p3:hover{
+    color:#766CF1;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+button:hover{
+    background-color: #766CF1;
+    cursor: pointer;
+    width: 356px;
+    transition: 0.3s;
+}
+.last:active{
+    cursor:pointer;
+    color:#1F2E55;
+}
+.last:hover{
+    cursor: pointer;
+}
+
+
